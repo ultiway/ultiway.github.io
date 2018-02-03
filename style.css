@@ -1,0 +1,16 @@
+img {width: 500px; margin-left: 400px;}
+H1 {
+  color: Black;
+  font-size: 200%;
+  font-family: Arial, Verdana, sans-serif;
+  text-align: center;
+}
+
+H2 {
+  color: Green;
+  font-size: 200%;
+  font-family: "Times new roman", Verdana, sans-serif;
+  text-align: center;
+}
+p {text-align: center;}
+table {background: Green; margin-left: 500px;}
