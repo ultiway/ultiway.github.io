@@ -156,7 +156,7 @@ margin-bottom: 62px;
   background: url(images/footer_icon4.jpg) no-repeat;
   background-size: cover;
 }
-
+*{border: 1px solid red;}
 .content__text{
 padding-top: 72%;
 text-align: center;
