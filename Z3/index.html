@@ -4,11 +4,19 @@
     <title>Z3</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <script src="jquery-1.js"></script>
+    <script>
+      function slowScroll(id){
+        var offset= 0;
+        $('html, body').animate({scrollTop: $(id).offset().top + offset},1000);
+        return false;
+      }
+    </script>
   </head>
-  <body class="page">
+  <body id="page">
     <div class="page__cell-1">
       <header class="header">
-        <a href="#"><img class="header__logo" src="images/LOGO.png"></a>
+        <img src="images/LOGO.png">
         <ul class="header__menu">
           <li class="header__list"><a class="link" href="#">Label</a></li>
           <li class="header__list"><a class="link" href="#">Label</a></li>
@@ -59,7 +67,7 @@
         </div>
       </div>
       <div class="content__link">
-      <a href="#"><button class="content__button">Work with us</button></a>
+        <a href="javascript://0" onclick="slowScroll('#page')"><button class="content__button">Work with us</button></a>
       </div>
     </div>
     <div class="content-4">
@@ -69,15 +77,15 @@
       <div class="page__cell-2">
         <span class="footer__menu">
           <ul class="footer__list-1">
-            <li class="footer__text--title-1"><a href="document.pdf" target="_blank" >About</a></li>
-            <li class="footer__text--title-1"><a href="document.pdf" target="_blank">FAQ</a></li>
-            <li class="footer__text--title-1"><a href="document.pdf" target="_blank">Work with Us</a></li>
+            <li class="footer__text--title-1"><a class="link__pdf" href="document.pdf" target="_blank" >About</a></li>
+            <li class="footer__text--title-1"><a class="link__pdf" href="document.pdf" target="_blank">FAQ</a></li>
+            <li class="footer__text--title-1"><a class="link__pdf" href="document.pdf" target="_blank">Work with Us</a></li>
           </ul>
         </span>
         <div class="footer__images">
-          <a href="https://www.facebook.com" target="_blank"><img class="footer__image" src="images/facebook.png"></a>
-          <a href="https://twitter.com/" target="_blank"><img class="footer__image" src="images/twitter.png"></a>
-          <a href="https://mail.google.com" target="_blank"><img class="footer__image" src="images/message.png"></a>
+          <a class="link__network" href="https://www.facebook.com" target="_blank"><img class="footer__image" src="images/facebook.png"></a>
+          <a class="link__network" href="https://twitter.com/" target="_blank"><img class="footer__image" src="images/twitter.png"></a>
+          <a class="link__network" href="https://mail.google.com" target="_blank"><img class="footer__image" src="images/message.png"></a>
         </div>
         <hr>
         <span class="footer__menu">
