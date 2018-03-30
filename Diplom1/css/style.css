@@ -1,0 +1,470 @@
+@font-face {
+  font-family: MuseoSans;
+  src: url(fonts/MuseoSansCyrl_2.otf);
+}
+@font-face {
+  font-family: Avenir-Heavy;
+  src: url(fonts/Avenir-Heavy.ttf);
+}
+@font-face {
+  font-family: Avenir-Medium;
+  src: url(fonts/Avenir-Medium.ttf);
+}
+@font-face {
+  font-family: Avenir-Oblique;
+  src: url(fonts/Avenir-Oblique.ttf);
+}
+@font-face {
+  font-family: MuseoSans500;
+  src: url(fonts/MuseoSans_500.otf);
+}
+
+.page{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: white;
+}
+
+.page__cell-1{
+  padding-top: 1.9%;
+  padding-left: 17.5%;
+  padding-right: 17.5%;
+}
+
+a{
+  color: white;
+  text-decoration: inherit;
+}
+
+.link:hover{
+  border-bottom: 3px solid;
+  border-color: rgb(14, 191, 221);
+}
+
+.header {
+  width: 100%;
+  height: 3em;
+}
+
+.header__logo{
+  width: 100px;
+}
+
+#1{
+  width: 4.8em;
+
+}
+
+.header__menu{
+  float: right;
+  list-style:none;
+  margin-top: 0.2%;
+  font-family: MuseoSans;
+}
+
+.header__list{
+  font-size: 9pt;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline;
+  margin: 1.1em;
+  font-family: MuseoSans;
+  color: black;
+}
+
+.link__hover{
+  text-transform: uppercase;
+  color: black;
+}
+
+.link__hover:hover{
+  border-bottom: 3px solid;
+  border-color: rgb(14, 191, 221);
+}
+
+.link{
+  color: black;
+  text-transform: uppercase;
+}
+
+.header__link{
+  text-transform: uppercase;
+  font-size: 9pt;
+  padding: 0.9em 2.9em;
+  border-radius: 3em;
+  text-decoration: none;
+  color: white;
+  background: rgb(14, 191, 221);
+}
+
+.content-1{
+  width: 100%;
+  height: 33.7em;
+  background: url(../images/95.jpg);
+}
+
+.content-1--space{
+  padding-top:0.5em;
+}
+
+#container{
+  border-radius: 10px;
+}
+
+.content__text-1{
+  width: 55%;
+  padding-top: 27.4%;
+  margin: 0 auto;
+}
+
+.content__icon{
+  margin: 0 auto;
+  display: table-cell;
+}
+
+#content-2{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 50em;
+  background: url(../images/мебель4.jpg) no-repeat;
+  background-size: cover;
+}
+
+.content__text{
+  width: 60%;
+  background-color: rgba(0,0,1,0.5);
+  margin: 0 auto;
+}
+
+.content__text--caption-1{
+  text-align: center;
+  font-family: Avenir-Heavy;
+  font-size: 30pt;
+  color: white;
+  margin-bottom: 20%;
+}
+
+.content__text--caption-2{
+  text-align: left;
+  font-style: italic;
+  font-size: 25pt;
+  color: white;
+}
+
+.content__text--title{
+  text-align: left;
+  font-size: 20pt;
+  color: #fff;
+}
+
+.content__text--left{
+  width: 50%;
+  background-color: rgba(0,0,1,0.5);
+}
+
+.content__text-3{
+  width: 100%;
+}
+
+.content__images--circle{
+  width: 135px;
+  margin: 32px;
+  margin-bottom: 1%;
+}
+
+.content__link{
+  margin: 0 auto;
+  width: 127px;
+}
+
+.content__button{
+  text-transform: uppercase;
+  color: white;
+  font-family: Avenir-Heavy;
+  padding: 10px 10px;
+  background-color: rgb(14, 191, 221);
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.content__button:hover{
+  color: rgb(14, 191, 221);
+  background-color: white;
+}
+
+.content-3{
+  border-top: 2.5em solid white;
+  height: 43.7em;
+  background: url(../images/столяр.jpg)no-repeat;
+  background-size: cover;
+}
+
+.cell{
+  padding-bottom: 11em;
+}
+
+.content__text--right{
+  float: right;
+  text-align: right;
+  width: 50%;
+  background-color: rgba(0,0,1,0.5);
+}
+
+.footer{
+  width: 100%;
+  height: 9em;
+  background: rgb(69, 73, 77);
+}
+
+.page__cell-2{
+  padding-left: 17.5%;
+  padding-right: 17.5%;
+  height: auto;
+}
+
+.footer__menu{
+
+}
+
+.link__pdf{
+  color: white;
+  text-transform: uppercase;
+}
+
+.link__pdf:hover{
+  color: rgb(14, 191, 221);
+}
+
+.footer__list-1{
+  padding: 0;
+  display: table-cell;
+  padding-top: 1.7em;
+  padding-bottom: 1.1em;
+}
+.footer__text--title-1{
+  display: inline;
+  margin: 10px;
+  font-family: MuseoSans500;
+  text-transform: uppercase;
+  font-size: 8.5pt;
+}
+
+.footer__images{
+  display: table-cell;
+  float: right;
+}
+
+.footer__image{
+
+  padding-top: 1em;
+  margin: 5px;
+  width: 35px;
+}
+
+.link__network{
+  color: white;
+  text-decoration: inherit;
+}
+
+hr{
+  color: white;
+  width: 100%;
+  opacity: 0.2;
+}
+
+.footer__list-2{
+  margin: 0;
+  float: right;
+  padding: 0;
+  display: table-cell;
+  padding-bottom: 1.1em;
+  font-size: 5pt;
+}
+
+.footer__text--title-2{
+  display: inline;
+  margin: 5px;
+  font-family: MuseoSans500;
+  color: grey;
+  font-size: 8pt;
+}
+
+@charset "utf-8";
+/* CSS Document */
+.lof-slidecontent, .lof-slidecontent a {
+	color:#FFF;
+}
+.lof-slidecontent a.readmore{
+	color:#58B1EA;
+	font-size:95%;
+
+}
+.lof-slidecontent{
+	position:relative;
+	overflow:hidden;
+	border:#F4F4F4 solid 1px;
+}
+.lof-slidecontent .preload{
+	height:100%;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:100000;
+	text-align:center;
+	background:#FFF
+}
+.lof-slidecontent .preload div{
+	height:100%;
+	width:100%;
+	background:transparent url(images/load-indicator.gif) no-repeat scroll 50% 50%;
+}
+.lof-main-outer{
+	position:relative;
+	height:100%;
+	width:900px;
+	z-index:3px;
+	overflow:hidden;
+}
+
+
+/*******************************************************/
+.lof-main-item-desc{
+	z-index:100px;
+	position:absolute;
+	bottom:50px;
+	left:0px;
+	width:350px;
+	background:url(images/bg_trans.png);
+	height:100px;
+	/* filter:0.7(opacity:60) */
+	padding:10px;
+}
+.lof-main-item-desc p{
+	margin:0 8px;
+	padding:8px 0
+}
+.lof-main-item-desc h3{
+	padding:0;
+	margin:0
+}
+.lof-main-item-desc h2{
+	padding:0;
+	margin:15px 0 0 0px;
+}
+.lof-main-item-desc h3 a{
+	margin:0;
+	background:#C01F25;
+	font-size:75%;
+	padding:2px 3px;
+	font-family:"Trebuchet MS",Trebuchet,Arial,Verdana,sans-serif;
+	text-transform:uppercase;
+	text-decoration:none
+}
+.lof-main-item-desc h3 a:hover{
+
+	text-decoration:underline;
+}
+.lof-main-item-desc h3 i {
+	font-size:70%;
+}
+
+/* main flash */
+ul.lof-main-wapper{
+	/* margin-right:auto; */
+	overflow:hidden;
+	background:transparent url(images/load-indicator.gif) no-repeat scroll 50% 50%;
+	padding:0px;
+	margin:0;
+	position:absolute;
+	overflow:hidden;
+}
+
+ul.lof-main-wapper li{
+	overflow:hidden;
+	padding:0px;
+	margin:0px;
+	float:left;
+	position:relative;
+}
+.lof-opacity  li{
+	position:absolute;
+	top:0;
+	left:0;
+	float:inherit;
+}
+ul.lof-main-wapper li img{
+	padding:0px;
+}
+
+/* item navigator */
+.lof-navigator-wapper {
+	position:absolute;
+	bottom:10px;
+	right:10px;
+	background:url(images/transparent_bg.png) repeat;
+	padding:5px 0px;
+}
+.lof-navigator-outer{
+	position:relative;
+	z-index:100;
+	height:180px;
+	width:310px;
+	overflow:hidden;
+	color:#FFF;
+	float:left
+}
+ul.lof-navigator{
+	top:0;
+	padding:0;
+	margin:0;
+	position:absolute;
+	width:100%;
+}
+ul.lof-navigator li{
+	cursor:hand;
+	cursor:pointer;
+	list-style:none;
+	padding:0;
+	margin-left:0px;
+	overflow:hidden;
+	float:left;
+	display:block;
+
+	text-align:center;
+
+}
+
+.img-icon{
+  width: 6em;
+}
+
+ul.lof-navigator li img{
+	border:#666 solid 3px;
+}
+ul.lof-navigator li.active img, ul.lof-navigator li:hover img {
+	border:#A8A8A8 solid 3px;
+}
+.lof-navigator-wapper .lof-next,  .lof-navigator-wapper .lof-previous{
+	display:block;
+  width: 22px;
+	height:30px;
+	color:#FFF;
+	cursor:pointer;
+
+}
+.lof-navigator-wapper .lof-next {
+	float:left;
+	text-indent:-999px;
+	margin-right:5px;
+	background:url(images/arrow-l.png) no-repeat right center;
+}
+.lof-navigator-wapper .lof-previous {
+	float:left;
+	text-indent:-999px;
+	margin-left:5px;
+	background:url(images/arrow-r.png) no-repeat left center;
+}
