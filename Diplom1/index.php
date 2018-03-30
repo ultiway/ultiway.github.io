@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
     <meta charset="utf-8">
-    <title>Z3</title>
+    <title>Favorit</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/layout.css" />
@@ -27,30 +28,32 @@
     												buttons			: buttons} );
     	});
     </script>
+    <script>
+    function slowScroll(id){
+        var offset= 0;
+        $('html, body').animate({scrollTop: $(id).offset().top + offset},1500);
+        return false;
+      }
+    </script>
   </head>
-  <body id="page">
+  <body class="page">
     <div class="page__cell-1">
       <header class="header">
-        <img src="images/LOGO.png">
+        <a href="index.php"><img class="header__logo" src="images/favorit.png">
         <ul class="header__menu">
-          <li class="header__list"><a class="link" href="#">Label</a></li>
-          <li class="header__list"><a class="link" href="#">Label</a></li>
-          <li class="header__list"><a class="link" href="#">Label</a></li>
-          <a class="header__link" href="#">Sign In</a>
+          <li class="header__list"><a class="link" href="#">Каталог</a></li>
+          <li class="header__list"><a class="link" href="#">Заказ</a></li>
+          <li class="header__list"><a class="link" href="#">Доставка</a></li>
+          <li class="header__list"><a class="link__hover" href="javascript://0" onclick="slowScroll('#content-2')">О нас</a></li>
+          <a class="header__link" href="#">Войти</a>
         </ul>
       </header>
     </div>
     <div class="content-1">
       <div class="content-1--space">
         <div id="container">
-              <h1><strong>Lof JSliderNews 1.0</strong> -  Jquery 1.3 & Easing plugin</h1>
-
-       <p>
-        <strong> Direction: Right - Left. The Navigator is the list of thumbnails.</strong>
-          The plugin allow to use the wheelup and wheeldown to previous|next item in the list
-      </p>
-      <div id="lofslidecontent45" class="lof-slidecontent" style="width:980px; height:340px;">
-      <div class="preload"><div></div></div>
+            <div id="lofslidecontent45" class="lof-slidecontent" style="width:980px; height:340px;">
+              <div class="preload"><div></div></div>
        <!-- MAIN CONTENT -->
         <div class="lof-main-outer" style="width:980px; height:340px;">
           <ul class="lof-main-wapper">
@@ -167,42 +170,30 @@
           </div>
         </div>
       </div>
-    <div class="content-2">
-      <div class="content__text-2">
-        <p class="content__text--caption-2">About</p>
-        <p class="content__text--title-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-        <br> has been the industry's standard dummy text ever since the 1500s, when an unknown.</p>
+    <div id="content-2">
+      <div class="content__text">
+        <p class="content__text--caption-1">O HAC</p>
+      </div>
+      <div class="content__text--left">
+        <p class="content__text--caption-2">В нашем магазине вы найдете:</p>
+        <ul class="content__menu">
+          <li><p class="content__text--title">Широкий ассортимент</p>
+          <li><p class="content__text--title">Гарант хорошего качества</p>
+          <li><p class="content__text--title">Оплата удобным Вам способом</p>
+          <li><p class="content__text--title">Быстрая доставка по всей стране</p>
+        </ul>
       </div>
     </div>
     <div class="content-3">
-      <div class="content__text-3">
-        <p class="content__text--caption-3">Team</p>
+      <div class="cell"></div>
+      <div class="content__text--right">
+        <p class="content__text--caption-2">Наши специалисты предоставляют:</p>
+        <ul class="content__menu">
+          <li><p class="content__text--title">Выполнение заказа на Ваш вкус и цвет</p>
+          <li><p class="content__text--title">Минимум затрат</p>
+          <li><p class="content__text--title">Высокая скорость сборки</p>
+        </ul>
       </div>
-      <div class="content__block-image">
-        <a href="#">
-          <div class="content__image-1">
-          <img class="content__images--circle" src="images/Layer79.png">
-          <p class="content__text--caption-4">John Doe</p>
-          <p class="content__text--title-4">Founder & CEO</p>
-        </div>
-        <div class="content__image-2">
-          <img class="content__images--circle" src="images/Layer80.png">
-          <p class="content__text--caption-4">John Doe</p>
-          <p class="content__text--title-4">Co-Founder</p>
-        </div>
-        <div class="content__image-3">
-          <img class="content__images--circle" src="images/Layer81.png">
-          <p class="content__text--caption-4">John Doe</p>
-          <p class="content__text--title-4">Investor</p>
-        </a>
-        </div>
-      </div>
-      <div class="content__link">
-        <a href="javascript://0" onclick="slowScroll('#page')"><button class="content__button">Work with us</button></a>
-      </div>
-    </div>
-    <div class="content-4">
-      <iframe class="content__map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d151852.7067280771!2d49.3338048891289!3d53.509580303399545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1521118066716" frameborder="0" style="border:0" ></iframe>
     </div>
     <footer class="footer">
       <div class="page__cell-2">

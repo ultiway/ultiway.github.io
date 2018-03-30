@@ -19,7 +19,7 @@
   src: url(fonts/MuseoSans_500.otf);
 }
 
-#page{
+.page{
   margin: 0;
   padding: 0;
   height: 100%;
@@ -40,14 +40,16 @@ a{
 
 .link:hover{
   border-bottom: 3px solid;
-  border-color: rgb(14, 191, 221);;
+  border-color: rgb(14, 191, 221);
 }
 
 .header {
   width: 100%;
   height: 3em;
-  background: white;
+}
 
+.header__logo{
+  width: 100px;
 }
 
 #1{
@@ -72,6 +74,16 @@ a{
   color: black;
 }
 
+.link__hover{
+  text-transform: uppercase;
+  color: black;
+}
+
+.link__hover:hover{
+  border-bottom: 3px solid;
+  border-color: rgb(14, 191, 221);
+}
+
 .link{
   color: black;
   text-transform: uppercase;
@@ -90,11 +102,15 @@ a{
 .content-1{
   width: 100%;
   height: 33.7em;
+  background: url(../images/95.jpg);
 }
 
 .content-1--space{
   padding-top:0.5em;
-  background: url(images/back.jpg);
+}
+
+#container{
+  border-radius: 10px;
 }
 
 .content__text-1{
@@ -108,111 +124,49 @@ a{
   display: table-cell;
 }
 
+#content-2{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 50em;
+  background: url(../images/мебель4.jpg) no-repeat;
+  background-size: cover;
+}
+
+.content__text{
+  width: 60%;
+  background-color: rgba(0,0,1,0.5);
+  margin: 0 auto;
+}
+
 .content__text--caption-1{
-  display: table-cell;
-  width: 64%;
   text-align: center;
-  color: white;
   font-family: Avenir-Heavy;
   font-size: 30pt;
-  margin-bottom: 0.1em;
-}
-
-.content__text--title-1{
-  font-size: 13pt;
   color: white;
-  font-family: Avenir-Medium;
-  text-align: center;
-}
-
-.content__items{
-  display: table;
-  width: 50%;
-  margin: 0 auto;
-}
-
-.content-2{
-  display: table;
-  width: 100%;
-  height: 11.6em;
-  background-color: white;
-}
-
-.content__text-2{
-  width: 60%;
-  margin: 0 auto;
+  margin-bottom: 20%;
 }
 
 .content__text--caption-2{
-  padding-top: 1.4%;
-  text-align: center;
+  text-align: left;
+  font-style: italic;
+  font-size: 25pt;
   color: white;
-  font-family: Avenir-Heavy;
-  font-size: 30pt;
-  color: rgb(14, 191, 221);
-  margin-bottom: 1.2%;
-}
-.content__text--title-2{
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  font-size: 13.3pt;
-  color: black;
-  font-family: Avenir-Medium;
-  text-align: center;
 }
 
-.content-3{
-  width: 100%;
-  height: 33.8em;
-  background-color: rgb(14, 191, 221);
+.content__text--title{
+  text-align: left;
+  font-size: 20pt;
+  color: #fff;
+}
+
+.content__text--left{
+  width: 50%;
+  background-color: rgba(0,0,1,0.5);
 }
 
 .content__text-3{
   width: 100%;
-}
-
-.content__text--caption-3{
-  padding-top: 3.2%;
-  width: 100%;
-  text-align: center;
-  color: white;
-  font-family: Avenir-Heavy;
-  font-size: 30pt;
-  margin-bottom: 0.1em;
-}
-
-.content__block-image{
-  display: table;
-  margin: 0 auto;
-  padding-top: 2.8em;
-  margin-bottom: 5em;
-}
-
-.content__image-1{
-  display: table-cell;
-}
-.content__image-2{
-  display: table-cell;
-}
-.content__image-3{
-  display: table-cell;
-}
-
-.content__text--caption-4{
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  font-family: Avenir-Heavy;
-  color: white;
-}
-.content__text--title-4{
-  padding: 0;
-  margin: 0;
-  font-family: Avenir-Oblique;
-  font-style: italic;
-  text-align: center;
-  color: white;
 }
 
 .content__images--circle{
@@ -241,20 +195,27 @@ a{
   background-color: white;
 }
 
-.content-4{
-  height: 33.7em;
+.content-3{
+  border-top: 2.5em solid white;
+  height: 43.7em;
+  background: url(../images/столяр.jpg)no-repeat;
+  background-size: cover;
 }
 
-.content__map{
-  height: 33.7em;
-  width: 100%;
+.cell{
+  padding-bottom: 11em;
+}
+
+.content__text--right{
+  float: right;
+  text-align: right;
+  width: 50%;
+  background-color: rgba(0,0,1,0.5);
 }
 
 .footer{
-  padding: 0;
-  margin: 0;
   width: 100%;
-  height: 10em;
+  height: 9em;
   background: rgb(69, 73, 77);
 }
 
@@ -270,6 +231,7 @@ a{
 
 .link__pdf{
   color: white;
+  text-transform: uppercase;
 }
 
 .link__pdf:hover{
